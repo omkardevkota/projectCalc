@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="calc">
+        <h2>CALCULATOR</h2>
+        <div id="outer-div">
+            <div id="innerdiv1">
+                <input type="text" id="firstnum" class="num" placeholder="enter First num"><br><br>
+                <input type="text" id="secondnum" class="num" placeholder="enter Second num"><br><br>
+                <p><strong>Result:</strong> <input type="text" id="result" readonly></p><br><br>
+                <div id="innerdiv2">
+                    <button class="calres" id="calculate"> Calculate </button>
+                    <button class="calres" id="reset"> Reset </button>
+
+                </div>
+        <br>
+                <p id="dev"><marquee scrolldelay="400"><em>&copy; 2024 All Rights Reserved.</marquee></p>
+            </div>
+            <div id="divoperator">
+                <button class="operator" id="add"> + </button>
+                <button class="operator" id="diff"> - </button>
+                <button class="operator" id="prod"> x </button>
+                <button class="operator" id="divide">/</button>
+                <button class="operator" id="mod">%</button>
+    
+                <div id="logo">
+                    <div id="pic"></div>
+                </div>
+                
+                <p id="om"><i>developed by:</i></p>
+                 <p id="om1"><em><b>Omkaara</b></em></p>
+        
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
